@@ -1,0 +1,97 @@
+.apply-hero {
+  width: 100%;
+}
+
+.apply-hero > div {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid grey;
+
+}
+
+.apply-hero  > div > div {
+  width: 45%;
+}
+
+.ah-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apply-to-2 {
+  color: white;
+  background-color: rgb(251,101,30);
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.apply-s-2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.apply-s-2 > div {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid grey;
+}
+
+.as-2-left {
+  flex: 1;
+}
+
+.as-2-right {
+  flex: 0.8;
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  top: 10px;
+  align-items: start;
+
+}
+
+.hanging {
+  width: 400px;
+  height: fit-content;
+  padding: 20px;
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 10px;
+
+  position: sticky !important;
+  top: 20px !important;
+}
+
+.hanging ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .apply-hero > div {
+    display: block;
+  }
+
+  .apply-hero  > div > div {
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .as-2-right {
+    display: none;
+  }
+}

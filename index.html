@@ -1,0 +1,890 @@
+<!-- Q1 - Create the Y Combinator Landing Page using HTML, CSS and Bootstrap -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/query.css" />
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Y combinator</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <div class="logo-div">
+            <img src="./images/download.png" alt="" />
+          </div>
+
+          <div class="nav-div">
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Companies</a></li>
+              <li><a href="">Startup Jobs</a></li>
+              <li><a href="">Find a Co-Founder</a></li>
+              <li><a href="">Libarary</a></li>
+              <li><a href="">SAFE</a></li>
+              <li><a href="">Resources</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-right">
+          <span class="hmm">Apply for <span class="fw-bolder">F2024</span> batch</span>
+          <button style="border: none;">
+            <a href="./pages/apply.html">Apply</a>
+          </button>
+        </div>
+
+        <div class="menu-div">
+          <button>
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-one">
+        <div class="text">
+          <div>
+            <h1 class="my-3 fw-bold">
+              Why <br /><span class="orange">Y Combinator?</span>
+            </h1>
+
+            <p style="font-size: 22px" class="we-give my-2 mb-4">
+              We give startups a disproportionate advantage.
+            </p>
+
+            <a href="#" class="apply-to">Apply to YC</a>
+          </div>
+        </div>
+
+        <div class="middle">
+          <div
+            class="middle-1 d-flex justify-content-center align-items-center p-3"
+          >
+            <div>
+              <h1 class="text-center orange fw-bold">5,000</h1>
+              <p class="text-center">funded start-ups</p>
+            </div>
+          </div>
+
+          <div
+            class="middle-2 d-flex justify-content-center align-items-center py-3"
+          >
+            <div>
+              <h1 class="text-center orange fw-bold">$600B</h1>
+              <p class="text-center">combined evaluation</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-div">
+          <img src="./images/y-combinator-hero.webp" alt="" width="100%" />
+        </div>
+      </section>
+
+      <section class="section-two">
+        <div class="s2-top">
+          <a href="#">
+            <h5>Top YC companies list by revenue</h5>
+            <p>
+              Congratulations to the companies recognized on the inaugural YC
+              Top Companies List by Revenue!
+            </p>
+          </a>
+
+          <a href="#">
+            <h5>YC libraries</h5>
+            <p>
+              Explore some of the best YC videos, podcasts, and essays from over
+              the years. Come learn how to make something people want.
+            </p>
+          </a>
+
+          <a href="#">
+            <h5>The standard deal</h5>
+            <p>
+              When a company is accepted into the YC batch program, we invest a
+              total of $500,000.
+            </p>
+          </a>
+        </div>
+
+        <h4 style="font-weight: 600; text-align: center" class="my-5">
+          Top Companies
+        </h4>
+
+        <div class="s2-main row gap-2">
+          <div class="col">
+            <img
+              src="./images/airbnb-423deceb57ea913e2f3a39a1c2b6ecb690f019933b4d767ac91121777aa59107.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/gusto-b3f56f64a500a85cb44a2621db217778c9c698f83da59921e41c732dacdb3f35.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/brex-a76f83603a430f266cddacaceaf525080d91c3febf04ea8000ae1b4c67e8786f.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/coinbase-7d4f13e4f2ed0f6d3a608a7834517031d6663a0cbf1ba231d1dca2f079c091a2.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/cruise-38dda623d4f317a49a65099cd460bd1c6b3e4b91ffeccb6df0ec02284345b338.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/deel-2eb5105300f66ebfa07b0ea805b6680d71c0b6de0272c3f75eebf6d2ae3077cf.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/doordash-f41c839bb0522ead71e8d99ed3ae0495c04271f6f3f3edc6b0effbbff172bc1d.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/gusto-b3f56f64a500a85cb44a2621db217778c9c698f83da59921e41c732dacdb3f35.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/dropbox-83b803aca663267bc2c480efca454ea8f9d31c39dd2ccba3856104a987e2692d.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/faire-3113845be6506be7761eaef7257e882b6e0c94081653c0f7459f8ed0c0596338.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/flexport-ace3180f9926a45ed72eea63ed4c5a1a0aeb4e14ec7eb3ffff7c513aba07d0a9.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/deel-2eb5105300f66ebfa07b0ea805b6680d71c0b6de0272c3f75eebf6d2ae3077cf.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/gusto-b3f56f64a500a85cb44a2621db217778c9c698f83da59921e41c732dacdb3f35.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/instacart-81d147c59ca98d84b72f606de3af981da477423738120d3b2baec64c3162ba14.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/pagerduty-dc361aab31ef341eaed4d0a5a420c42f4d557745c67ffc5999c7b556c408d150.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/reddit-d5ed3340e70326e6a372be76e2ec1b761a4d757954ae69311671f82f59afbedb.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/rippling-100bc0c1cdabd9e38c671420ba16ba8f6d1af656dc3bc32eeeaa029f1bec257a.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/gusto-b3f56f64a500a85cb44a2621db217778c9c698f83da59921e41c732dacdb3f35.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/stripe-d1d72c19fe7fbfd9514ffbc26f1c5922a1b77fd7445c78a34fe319c03b986713.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/twitch-1b4772b83a73b6fa827ef467ecc17023a2bfbbf936633bffb5e93674690e74d6.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./images/deel-2eb5105300f66ebfa07b0ea805b6680d71c0b6de0272c3f75eebf6d2ae3077cf.png"
+              alt=""
+            />
+          </div>
+          <div class="col">+</div>
+        </div>
+      </section>
+
+      <section class="section-three my-5">
+        <div class="s3-head mb-5">
+          <h2 class="text-center col-md-10 col-lg-5 mx-auto">
+            <span class="orange">We help founder</span> smake something people
+            want and the results speak for themselves.
+          </h2>
+        </div>
+
+        <div class="helps">
+          <div class="one-help">
+            <div class="help-top">
+              <p>
+                We help founders at their earliest stages regardless of their
+                age.
+              </p>
+            </div>
+
+            <div class="help-bottom">
+              <ul>
+                <li>
+                  <p>
+                    <span class="blue">54% </span>of YC's billion dollar
+                    companies had no revenue when they applied
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">52% </span>of YC's billion dollar company
+                    founders were under 28 years old and the oldest founder was
+                    in their 50s
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">42% </span>of YC's billion dollar
+                    companies applied with only an idea
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="one-help">
+            <div class="help-top">
+              <p>
+                We help founders at their earliest stages regardless of their
+                age.
+              </p>
+            </div>
+
+            <div class="help-bottom">
+              <ul>
+                <li>
+                  <p>
+                    <span class="blue">54% </span>of YC's billion dollar
+                    companies had no revenue when they applied
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">52% </span>of YC's billion dollar company
+                    founders were under 28 years old and the oldest founder was
+                    in their 50s
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">42% </span>of YC's billion dollar
+                    companies applied with only an idea
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="one-help">
+            <div class="help-top">
+              <p>
+                We help founders at their earliest stages regardless of their
+                age.
+              </p>
+            </div>
+
+            <div class="help-bottom">
+              <ul>
+                <li>
+                  <p>
+                    <span class="blue">54% </span>of YC's billion dollar
+                    companies had no revenue when they applied
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">52% </span>of YC's billion dollar company
+                    founders were under 28 years old and the oldest founder was
+                    in their 50s
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">42% </span>of YC's billion dollar
+                    companies applied with only an idea
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="one-help">
+            <div class="help-top">
+              <p>
+                We help founders at their earliest stages regardless of their
+                age.
+              </p>
+            </div>
+
+            <div class="help-bottom">
+              <ul>
+                <li>
+                  <p>
+                    <span class="blue">54% </span>of YC's billion dollar
+                    companies had no revenue when they applied
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">52% </span>of YC's billion dollar company
+                    founders were under 28 years old and the oldest founder was
+                    in their 50s
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="blue">42% </span>of YC's billion dollar
+                    companies applied with only an idea
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-four py-5">
+        <h2 class="text-center mx-auto">
+          Our formula for <span class="orange">success</span>.
+        </h2>
+
+        <div
+          class="my-5 mx-auto col-md-8 d-flex justify-content-center align-items-center"
+        >
+          <iframe
+            class="m-0"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/EiRnSjcVIqk?si=I1DBnrgrlBRawgXZ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section-five">
+        <h2 class="col-md-8 col-lg-6 mx-auto text-center">
+          YC is <span class="orange">run by startup founders</span> who have
+          built exactly what they wanted when starting and growing a startup.
+        </h2>
+
+        <div class="s5-grid my-5">
+          <div class="one-s5-card p-5">
+            <div class="s5-card-img">
+              <img src="./images/most-experienced-partners-DX4ZPbr4.jpg" alt="" />
+            </div>
+
+            <div class="s5-card-text">
+              <p class="bl-orange my-3" style="font-weight: 600;">
+                The most experienced partners
+              </p>
+              <p>
+                Each founder is assigned a dedicated group partner who has mentored hundreds of YC companies. They have more data on what it takes to build a successful startup than any other early stage startup advisor. These group partners read applications, interview companies, and mentor startups throughout the batch. You can access them in person, over email, and on Slack.
+              </p>
+            </div>
+          </div>
+
+          <div class="one-s5-card p-5">
+            <div class="s5-card-img">
+              <img src="./images/investor-network-DsrGWUIM.jpg" alt="" />
+            </div>
+
+            <div class="s5-card-text">
+              <p class="bl-orange my-3" style="font-weight: 600;">
+                Investor network
+              </p>
+              <p>
+                YC companies have raised $85 billion dollars from the best investors in the world. Our founders have access to the YC Investor Database which has profiles and reviews for more than 50,000 startup investors.
+              </p>
+            </div>
+          </div>
+
+          <div class="one-s5-card p-5">
+            <div class="s5-card-img">
+              <img src="./images/private-social-network-DAUtdNFy.jpg" alt="" />
+            </div>
+
+            <div class="s5-card-text">
+              <p class="bl-orange my-3" style="font-weight: 600;">
+                Private social network only for founders
+              </p>
+              <p>
+                YC founders get to benefit from the collective wisdom of over 9000 YC alumni. They can access these alums through Bookface, our private social network. We have a forum for asking questions to the community, a founder directory for finding specific people who can provide advice and intros, and a company directory for finding potential customers.
+              </p>
+            </div>
+          </div>
+
+          <div class="one-s5-card p-5">
+            <div class="s5-card-img">
+              <img src="./images/exclusive-deals-DZOi8DL7.jpg" alt="" />
+            </div>
+
+            <div class="s5-card-text">
+              <p class="bl-orange my-3" style="font-weight: 600;">
+                Exclusive deals
+              </p>
+              <p>
+                YC founders have access to over 1000 deals from leading software companies. Every YC company gets free credits or significant discounts on hosting, banking, cap table management, back office, and much more. Companies report these deals to be worth in excess of $500,000.
+              </p>
+            </div>
+          </div>
+
+          <div class="one-s5-card p-5">
+            <div class="s5-card-img">
+              <img src="./images/capital-after-batch-DQmLQXDH.jpg" alt="" />
+            </div>
+
+            <div class="s5-card-text">
+              <p class="bl-orange my-3" style="font-weight: 600;">
+                The best written advice
+              </p>
+              <p>
+                YC founders get to benefit from our collective experience funding 5000 companies across almost 20 years. We have extensive documentation for common questions about fundraising, go to market, sales, product market fit, mental health, hiring, and much more.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="one-s5-card p-5">
+            <div class="s5-card-img">
+              <img src="./images/s5-card-img.png" alt="" />
+            </div>
+
+            <div class="s5-card-text">
+              <p class="bl-orange my-3" style="font-weight: 600;">
+                Networks to build your team
+              </p>
+              <p>
+                Through Work at a Startup and HN, we help our founders hire the small number of early engineers and other team members critical to finding product market fit. At any given time there are 150,000+ candidates searching for jobs at early stage YC companies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-six py-5">
+        <h2 class="text-center my-3">
+          We put <span class="orange">founders' interests</span> first.
+        </h2>
+
+        <div class="interest col-9 mx-auto my-5 d-lg-none">
+          <ul>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont demant 20% of your company</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont demant 20% of your company</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont demant 20% of your company</p>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="interest d-none gap-4 d-lg-flex col-10 mx-auto justify-content-center my-5"
+        >
+          <ul>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont demant 20% of your company</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont demant 20% of your company</p>
+            </li>
+            <li>
+              <span class="orange-dot"></span>
+              <p>We dont take a board seat</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="interest-img p-2 mx-auto">
+          <div><img src="./images/capital-after-batch-DQmLQXDH.jpg" alt=""></div>
+          <div><img src="./images/capital-after-batch-DQmLQXDH.jpg" alt=""></div>
+          <div><img src="./images/capital-after-batch-DQmLQXDH.jpg" alt=""></div>
+        </div>
+      </section>
+
+      <section class="section-seven">
+        <h2 class="text-center my-5">Is YC worth 7%?</h2>
+
+        <div
+          class="my-5 mx-auto col-md-8 d-flex justify-content-center align-items-center"
+        >
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/DOez-RwJ7mg?si=ROA1n3wrUotJVf_x"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <h5 class="my-5 text-center">
+          <a href="#" class="orange text-decoration-none">Learn more</a> about
+          evaluating equity.
+        </h5>
+      </section>
+
+      <section class="section-eight">
+        <h2 class="text-center my-5">Here from the community</h2>
+
+        <div class="s8-whatever">
+          <div class="one-whatever">
+            <div class="one-w-img">
+              <img src="./images/marc-andreessen-B6IB5XEE.jpg" alt="" />
+            </div>
+            <div class="one-w-text">
+              <p>
+                "Y Combinator is the best program for creating top-end entrepreneurs that has ever existed." <br><span class="fw-bolder">Marc Andreessen,</span>General Partner, Andreessen Horowitz
+              </p>
+            </div>
+          </div>
+
+          <div class="one-whatever">
+            <div class="one-w-img">
+              <img src="./images/ron-conway-DahY8Lgh.jpg" alt="" />
+            </div>
+            <div class="one-w-text">
+              <p>
+                "Y Combinator is the best startup accelerator in the world. YC helps their companies a lot, and the YC community is a huge asset for the companies that go through the program." <br><span class="fw-bolder">Ron Conway,</span> Founder, SV Angel
+              </p>
+            </div>
+          </div>
+
+          <div class="one-whatever">
+            <div class="one-w-img">
+              <img src="./images/brian-chesky-Dok3kT1b.jpg" alt="" />
+            </div>
+            <div class="one-w-text">
+              <p>
+                "At YC, we were challenged to do things that don't scale – to start with the perfect experience for one person, then work backwards and scale it to 100 people who love us. This was the best piece of advice we've ever received." <br><span class="fw-bolder">Brian Chesky,</span> Founder, Airbnb (YC W09)
+              </p>
+            </div>
+          </div>
+
+          <div class="one-whatever">
+            <div class="one-w-img">
+              <img src="./images/patrick-collinson-MjupD62W.jpg" alt="" />
+            </div>
+            <div class="one-w-text">
+              <p>
+                "I doubt that Stripe would have worked without YC. It's that simple. Acquiring early customers, figuring out who to hire, closing deals with banks, raising money – YC's partners were closely involved and crucially helpful." <br><span class="fw-bolder">Patrick Collison, </span> Founder, Stripe (YC S09)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- <section class="section-nine">
+        <h2 class="text-center">The latest from YC</h2>
+
+        <div class="s9-carousel"></div>
+
+        <div class="s9-cards">
+          <div class="one-s9-card">
+            <div class="s9-card-text">
+              <p class="fw-bold">Start-up school</p>
+              <p class="fs-14">
+                YC's group partner teach you to build the foundation of a
+                billion dollar comapany.
+              </p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/review.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="one-s9-card">
+            <div class="s9-card-text">
+              <p class="fw-bold">Start-up school</p>
+              <p class="fs-14">
+                YC's group partner teach you to build the foundation of a
+                billion dollar comapany.
+              </p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/review.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="one-s9-card">
+            <div class="s9-card-text">
+              <p class="fw-bold">Start-up school</p>
+              <p class="fs-14">
+                YC's group partner teach you to build the foundation of a
+                billion dollar comapany.
+              </p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/review.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+
+      <section class="section-ten">
+        <h2 class="text-center my-5">Want to learn more?</h2>
+
+        <div class="s10-grid s9-cards">
+          <a href="#" class="one-s9-card">
+            <div class="s9-card-text">
+              <h6 class="fw-bold">YC Library</h6>
+              <p>Videos, podcasts, and essays for startup founders
+                Newsletter</p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/learn-more-library.jpg" alt="">
+            </div>
+          </a>
+
+          
+          <a href="#" class="one-s9-card">
+            <div class="s9-card-text">
+              <h6 class="fw-bold">Newsletter</h6>
+              <p>Keep up with the latest news, launches, jobs, and events from the YC community</p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/learn-more-newsletter.jpg" alt="">
+            </div>
+          </a>
+
+
+          
+          <a href="#" class="one-s9-card">
+            <div class="s9-card-text">
+              <h6 class="fw-bold">Work at a Startup</h6>
+              <p>
+                Find your next role at a YC startup
+              </p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/learn-more-waas.jpg" alt="">
+            </div>
+          </a>
+
+
+          
+          <a href="#" class="one-s9-card">
+            <div class="s9-card-text">
+              <h6 class="fw-bold">Blogs</h6>
+              <p>Essays, events, and announcements from YC.</p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/learn-more-blog.jpg" alt="">
+            </div>
+          </a>
+
+
+          
+          <a href="#" class="one-s9-card">
+            <div class="s9-card-text">
+              <h6 class="fw-bold">Co-Founder Matching</h6>
+              <p>
+                Meet a potential co-founder to start a startup with</p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/learn-more-events.jpg" alt="">
+            </div>
+          </a>
+
+
+          
+          <a href="#" class="one-s9-card">
+            <div class="s9-card-text">
+              <h6 class="fw-bold">YC Library</h6>
+              <p>Videos, podcast essays for startup founders.</p>
+            </div>
+
+            <div class="s9-card-img">
+              <img src="./images/review.jpg" alt="">
+            </div>
+          </a>
+
+
+          
+
+
+
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-one">
+        <div class="footer-logo">
+          <img src="./images/download.png" alt="">
+        </div>
+        <div>
+          <h6 class="fw-bold">Programs</h6>
+          <a href="#">YC Programs</a>
+          <a href="#">Startup School</a>
+          <a href="#">Work at a startup</a>
+          <a href="#">Co-founder matching</a>
+        </div>
+        <div>
+          <h6 class="fw-bold">Company</h6>
+          <a href="#">YC Blog</a>
+          <a href="#">Contact</a>
+          <a href="#">Press</a>
+          <a href="#">People</a>
+          <a href="#">Careers</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Notice at Collection</a>
+          <a href="#">Security</a>
+          <a href="#">Terms of Use</a>
+        </div>
+
+
+        <div>
+          <h6 class="fw-bold">Resources</h6>
+          <a href="#">Startup Directory</a>
+          <a href="#">Startup Library</a>
+          <a href="#">Investors</a>
+          <a href="#">SAFE</a>
+          <a href="#">Hacker News</a>
+          <a href="#">Launch YC</a>
+          <a href="#">YC Deals</a>
+        </div>
+
+
+        <div class="footer-c">
+          <span>Make something people want</span>
+          <a href="#">Apply</a>
+        </div>
+      </div>
+
+      <div class="footer-two">
+        <div>
+          <p>©️ Copyrights YC, 2024</p>
+        </div>
+
+        <div class="socials">
+          <a href="https://www.x.com/philips_of_ng"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://wa.me/+2348129248289"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.instagram.com/dev_philips"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.github.com/philips-of-ng"><i class="bi bi-github"></i></a>
+          <a href="www.facebook.com/"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.linkedin.com/philips_of_ng"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
